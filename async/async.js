@@ -67,3 +67,6 @@ function pickOnlyOne() {
   return Promise.race([getApple(), getBanana()]);
 }
 pickOnlyOne().then(console.log);
+
+// 이렇게 async와 await은 promise를 더 간단하게 쓸 수 있는 아이(syntatical sugar)이고
+// promise는 all 이나 race 같이 유용한 API가 있습니다.
