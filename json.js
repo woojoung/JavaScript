@@ -1,3 +1,4 @@
+"use strict";
 // JSON에 대해 조금더 공부를 하고 싶으시면:
 // MDN ➡️ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 // JavaScript.info ➡️ https://javascript.info/json

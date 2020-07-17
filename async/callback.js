@@ -57,7 +57,7 @@ userStorage.loginUser(
       user,
       (userWithRole) => {
         alert(
-          `Hello ${userWithRole.name}, you have a ${userWithRole.role} role`
+          `Hello ${userWithRole.name}, you have an ${userWithRole.role} role`
         );
       },
       (error) => {

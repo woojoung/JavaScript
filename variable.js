@@ -23,7 +23,7 @@ console.log(name);
 console.log(gloablName);
 
 // var (dont ever use this!)
-// var hoisting (move, declaration from bottom to top), 어디에 선언했는지 상관없이 항상 제일 위로 선언을 끌어올려주는 것을 말합니다.
+// var hoisting (move, declaration from bottom to top), .어디에 선언했는지 상관없이 항상 제일 위로 선언을 끌어올려주는 것을 말합니다
 // has no block scope
 {
   age = 4;

@@ -1,10 +1,12 @@
+"user strict";
+
 // Function
-// - funcamental building block in the program
+// - fundamental building block in the program
 // - subprogram can be used multiple times
 // - performs a task or calculates a value
 
 // 1. Function declaration
-// function name(pram1, param2) { body... return; }
+// function name(param1, param2) { body... return; }
 // one function === one thing
 // naming: doSomething, command, verb
 // e.g createCardAndPoint -> createCard, createCardAndPoint
@@ -23,9 +25,9 @@ function log(message) {
 log("Hello@");
 log(1234);
 
-//  2. Parameters
-//  premitive parameters: passed by value
-//  object parameters: passes by reference
+// 2. Parameters
+// premitive parameters: passed by value
+// object parameters: passes by reference
 function changeName(obj) {
   obj.name = "coder";
 }
@@ -143,13 +145,13 @@ const simplePrint = function () {
   console.log("simplePrint");
 };
 // same as above
-const simplePrint = () => console.log("simplePrint");
+// const simplePrint = () => console.log("simplePrint");
 
 const add = (a, b) => a + b;
 // same as above
-const add = function (a, b) {
-  return a + b;
-};
+// const add = function (a, b) {
+//   return a + b;
+// };
 const simpleMultiply = (a, b) => {
   // do something more
   return a * b;

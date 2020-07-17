@@ -46,8 +46,9 @@ class User {
   }
 }
 
-const user1 = new User("Steve", "Job", -1);
+const user1 = new User("Steve", "Jobs", -1);
 console.log(user1.age);
+console.log(user1.firstName);
 
 // 3. Fields (public, private)
 // Too soon!
@@ -107,7 +108,7 @@ class Triangle extends Shape {
     return (this.width * this.height) / 2; // override
   }
   toString() {
-    return `Triangle: color: ${this.color}`;
+    return `Triangle color: ${this.color}`;
   }
 }
 
