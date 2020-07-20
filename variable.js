@@ -4,7 +4,7 @@
 // added ECMAScript 5
 
 // 1. Use strict
-// added in ES 5
+// added in ES5
 // use this for Vanila JavaScript.
 
 "use strict";
